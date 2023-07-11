@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<rxui:ReactiveContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="ReactiveUINavigation.Views.SecondPage"
+    xmlns:rxui="clr-namespace:ReactiveUI.XamForms;assembly=ReactiveUI.XamForms"
+    xmlns:vm="clr-namespace:ReactiveUINavigation.ViewModels"
+    x:TypeArguments="vm:SecondViewModel">
+        <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Second Page" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+    </StackLayout>
+</rxui:ReactiveContentPage>
+
